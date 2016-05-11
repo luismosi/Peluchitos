@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gabriel.peluchitos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Agregr_peluche" />
+        <activity android:name=".Buscar_peluche" />
+        <activity android:name=".Eliminar_peluche" />
+        <activity android:name=".Actualizar_peluche" />
+        <activity android:name=".Mostrar_inventario" />
+        <activity android:name=".Realizar_venta" />
+        <activity android:name=".Ganancias" />
+        <activity android:name=".Notificar"></activity>
+    </application>
+
+</manifest>
